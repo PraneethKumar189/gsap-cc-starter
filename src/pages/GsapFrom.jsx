@@ -5,7 +5,7 @@ const GsapFrom = () => {
   // TODO: Implement the gsap.from() method
 
   useGSAP(()=>{
-    gsap.to("#green-box", {duration: 1, x: 100, y: 100});
+    gsap.from("#green-box", {duration: 1, x: 100, y: 100});
   })
 
   return (
